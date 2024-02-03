@@ -1,18 +1,18 @@
 {
-    "version": "v0.0.0",
-    "pub_date": "2024-02-03T22:08:40Z",
+    "version": "v0.0.1",
+    "pub_date": "2024-02-03T22:22:57Z",
     "platforms": {
         "linux-x86_64": {
-            "url": "https://github.com/thewh1teagle/tauri-auto-updater/releases/download/v0.0.0/tauri-auto-updater_0.0.0_amd64.AppImage.tar.gz",
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUYXlTTlFTZHgzdzN5VSszZm9kcDJzV0pFOWNYYjJ6am11ZkFXd0dkYThHWHp1UWV4QUs1Slh2VEk4S0FkOUtRUDFIdG1HWUlDMTBhbU1tUktvVmRyV3ZMOWxuUXVqR1E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2OTk3MzIwCWZpbGU6dGF1cmktYXV0by11cGRhdGVyXzAuMC4wX2FtZDY0LkFwcEltYWdlLnRhci5nego0RW91enBXZnlQTmI3a3hYRnBsamhUT1JvZjhpYmVtczViWFRkaVhadnZoM2V4cDMrN3VwSGtHdDVpS3hnU0FIOVcxOUordEVkaHlDMGkzbGkwbGFEQT09Cg=="
+            "url": "https://github.com/thewh1teagle/tauri-auto-updater/releases/download/v0.0.1/tauri-auto-updater_0.0.1_amd64.AppImage.tar.gz",
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUYXlTTlFTZHgzdzN5TGdOeTRPZVhyY29mVlgvREFNMHdRUkxqc2VlZzB1ZnFtSjVQaERwdGRYRnMwZlBMMVdvcmVrcDVJb2VwSnNQODlmSnBFd2VtZzVGemJsQW9QMncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2OTk4NzA0CWZpbGU6dGF1cmktYXV0by11cGRhdGVyXzAuMC4xX2FtZDY0LkFwcEltYWdlLnRhci5negp2TVREU28zb2lBdU10YUw0ZnBIY1Raa3JTVDUxdm9rU2V1S291cjEwWkhOQVNyYm02TVp2ODZnZTlsdmI2ckVGdlR1TEpvUnQvaUhKei81S2JTNHRCUT09Cg=="
         },
         "windows-x86_64": {
-            "url": "https://github.com/thewh1teagle/tauri-auto-updater/releases/download/v0.0.0/tauri-auto-updater_0.0.0_x64-setup.nsis.zip",
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUYXlTTlFTZHgzdzU2QXMyTGsvYUhzbTFQUTdsTG1vbVkyZHhOcW9HOGRZSmVMYllrUUtDbGk5YnczaGxabG5EVE9IVEtyQnZxbHYva2FGZkFzUjE0ckRyUzByK2JueUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2OTk3NDcwCWZpbGU6dGF1cmktYXV0by11cGRhdGVyXzAuMC4wX3g2NC1zZXR1cC5uc2lzLnppcApwZ1hOUzFJY2haRUdCdU9KbFpwK09OZGcwemNpWmNHSWorSjc0cHByc2wzbEtDMzBMMjhiUHhJTkdTK29xTTlvKzd4RmxEUDVPN3dIaUQ4OEhvbWZBZz09Cg=="
+            "url": "https://github.com/thewh1teagle/tauri-auto-updater/releases/download/v0.0.1/tauri-auto-updater_0.0.1_x64-setup.nsis.zip",
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUYXlTTlFTZHgzd3puMUtBUW1jMk14WFdoYmhWV0p5SFVhOVVOMllrbVVNVWMyQmE5bnl4ZVB5U3F3VE1tK2lCVEFyR01HLzcza1pENTlkNFFlZXB0NXBSV2xtRUJjTmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2OTk4ODIzCWZpbGU6dGF1cmktYXV0by11cGRhdGVyXzAuMC4xX3g2NC1zZXR1cC5uc2lzLnppcApJOGk1U3pzdzJjbzkxUmZMdEZsU3psNElXZkRVdWpUTGJZRjg3TjJVUmJjWFRGcWJRZ2NNVWh6U3VKcHpHRGpOWXF2OUI1N2g4QW9Ka0ZPaUNZT0xDQT09Cg=="
         },
         "darwin-x86_64": {
-            "url": "https://github.com/thewh1teagle/tauri-auto-updater/releases/download/v0.0.0/tauri-auto-updater_x64.app.tar.gz",
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUYXlTTlFTZHgzd3hJQmdsVFJLNjdSTlhiK2dkUkJERkh6ZmcyeWcrc2ZPTGV2ZjZzT2dOTWRnUkRERUpoV3pxaXRqdTBwc0lvb0FPN1hTbGpjWUVhOHhpR08vcmFSbWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2OTk3NTg3CWZpbGU6dGF1cmktYXV0by11cGRhdGVyLmFwcC50YXIuZ3oKMzd3Zkdwd3lJUzArY3dMcVAxNERzUCtkdTBGUlRzaklpN2VIR1hQN1NMb0RyZXJCdy95dFkrby9DMHhOT29rbHBEWmxDbHBGTEIxOTZ3TnpCVWY3Q3c9PQo="
+            "url": "https://github.com/thewh1teagle/tauri-auto-updater/releases/download/v0.0.1/tauri-auto-updater_x64.app.tar.gz",
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUYXlTTlFTZHgzdzN3NHNJalBYUDFKOW12VE5GS1ZFQlhWQ0hvNXR6aDJZRkVyZnFZaEJFZ2FYbEdDL3paRHBreFdXczg2VTFyRHMyTmRCclJ0YnIzK3pQSkEwVVhpMGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2OTk4ODc2CWZpbGU6dGF1cmktYXV0by11cGRhdGVyLmFwcC50YXIuZ3oKaVFPeW5OYzlkcFdEeDJYWEdFYW5TS2hWK2t1NzlNNWFWMG5JNU5oeXVYNkZ5L0RvREpxNklOL1NuMUV1cDFUVVZqQXJvWEp4TFBVQS9DbTRVaEk5Q3c9PQo="
         }
     }
 }
