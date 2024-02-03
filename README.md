@@ -12,5 +12,6 @@ export TAURI_KEY_PASSWORD="123123"
 ```
 
 Generate new update:
-```
+```console
 python scripts/create_update.py
+```
