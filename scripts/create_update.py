@@ -5,6 +5,7 @@ from pathlib import Path
 import fnmatch
 import requests
 from datetime import datetime, timezone
+import sys
 
 USERNAME = 'thewh1teagle'
 REPO = 'tauri-auto-updater'
@@ -14,10 +15,11 @@ REPO = 'tauri-auto-updater'
 # Patterns to match against updater platforms
 PLATFORMS = {
     '*aarch64.app*': 'darwin-aarch64',
+    '*x64.app*': 'darwin-x86_64',
     '*x86_64.app*': 'darwin-x86_64',
     '*AppImage.tar.gz*': 'linux-x86_64',
     '*x64-setup.nsis*': 'windows-x86_64',
-    '*x64_*.msi.zip*': 'windows-x86_64'
+    # '*x64_*.msi.zip*': 'windows-x86_64'
 }
 
 def get_updater_platform(name: str):
@@ -42,12 +44,12 @@ def create_signatures(assets: List[dict]):
             # Linux / MacOS
         sig = next((i for i in assets if i['name'] == f'{name}.sig'), None)
         if not sig:
-            print(f'Sig not found for {name}')
+            print(f'Sig not found for {name}', file=sys.stderr)
             continue
         try:
             platform = get_updater_platform(name)
         except Exception as e:
-            print(e)
+            print(e, file=sys.stderr)
             continue
         signature_url = sig['browser_download_url']
         sig_resp = requests.get(signature_url)
