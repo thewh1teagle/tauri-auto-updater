@@ -11,11 +11,6 @@ export TAURI_PRIVATE_KEY="dW50cnVzdGVkIGNvbW1lbnQ6IHJzaWduIGVuY3J5cHRlZCBzZWNyZX
 export TAURI_KEY_PASSWORD="123123"
 ```
 
-Generate new update:
-```console
-python scripts/create_update.py
-```
-
 For changing version to next one:
 1. Increment version in `tauri.conf.json` and `Cargo.toml`
 2. Push and trigger workflow
