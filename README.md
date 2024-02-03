@@ -20,5 +20,4 @@ For changing version to next one:
 1. Increment version in `tauri.conf.json` and `Cargo.toml`
 2. Push and trigger workflow
 3. Wait for finish and publish the drafted release
-4. Execute python3 scripts/create_update.py > ./updates/app.json
-5. Push the change and `.updates/app.json` will update the app for the users
+Thtat's all, automatic update will be send to users...
